@@ -8,5 +8,6 @@ fetch("https://litteratur-ba09.restdb.io/rest/books", {
   .then(doSomething);
 
 function doSomething(data) {
+  data.forEach((element) => {});
   console.log(data);
 }
