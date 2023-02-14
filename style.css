@@ -1,0 +1,181 @@
+/*GENEREL CSS*/
+body {
+  box-sizing: border-box;
+  background-color: rgb(185, 232, 255);
+  margin: 10px;
+  padding: 20px;
+}
+
+section {
+  max-width: 1200px;
+  height: auto;
+  padding: 20px;
+}
+
+main {
+  max-width: 1200px;
+  height: auto;
+}
+
+header {
+  padding: 10px;
+  margin: 10px;
+}
+
+/*BILLEDER*/
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/*SKRIFT*/
+mark.R {
+  background: none;
+  color: black;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  margin-left: 1.5%;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  margin: 4px;
+}
+
+h4 {
+  font-size: 0.9rem;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  margin: 4px;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 0.9rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+.t-shirt {
+  color: black;
+}
+
+.price {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.read_more {
+  text-decoration: underline;
+}
+
+/*MAIN-MENU*/
+.main-menu {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 78%;
+  margin-top: -5%;
+  font-size: 1.1rem;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+  justify-content: space-between;
+  display: flex;
+}
+
+/*MENU*/
+.menu {
+  font-size: 4rem;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  display: flex;
+  justify-content: left;
+  text-decoration: none;
+}
+
+/*BOX OG "BEVÆGELSE"*/
+.box {
+  width: 350px;
+  padding: 25px;
+  text-align: left;
+  margin-left: 7%;
+  border-bottom: 1px solid black;
+}
+
+.box:hover {
+  background: rgb(109, 206, 255);
+  transition: transform 0.3s;
+  border-radius: 10px;
+}
+
+.box2 {
+  width: 350px;
+  padding: 4px;
+  margin: 6px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.box2:hover {
+  background: rgb(109, 206, 255);
+  transition: transform 0.3s;
+}
+
+/*KØB-BOX*/
+.purchaseBox {
+  background: rgb(109, 206, 255);
+  color: var(--background-color);
+  padding: 4px;
+  border-radius: 30px;
+  border: 3px black;
+}
+
+UDSOLGT .productlist article.soldOut img {
+  opacity: 0.5;
+}
+
+.productlist article.soldOut::before {
+  content: "Sold Out";
+  position: absolute;
+  background: var(--color);
+  color: var(--background-color);
+  padding: 1rem;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+  display: flex;
+  font-size: 0.5rem;
+  text-decoration: underline;
+  justify-content: left;
+}
+
+ol {
+  list-style: decimal outside;
+  list-style-position: outside;
+  list-style-type: decimal;
+}
