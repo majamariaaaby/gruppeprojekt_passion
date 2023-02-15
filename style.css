@@ -179,3 +179,7 @@ ol {
   list-style-position: outside;
   list-style-type: decimal;
 }
+
+.menu {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
