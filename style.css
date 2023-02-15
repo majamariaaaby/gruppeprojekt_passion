@@ -1,7 +1,7 @@
 /*GENEREL CSS*/
 body {
   box-sizing: border-box;
-  background-color: rgb(185, 232, 255);
+  background-color: white;
   margin: 10px;
   padding: 20px;
 }
@@ -38,7 +38,7 @@ mark.R {
 h1 {
   font-size: 2rem;
   font-weight: bolder;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
   margin-left: 1.5%;
 }
@@ -46,14 +46,14 @@ h1 {
 h2 {
   font-size: 1rem;
   font-weight: bolder;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
 
 h3 {
   font-size: 2.5rem;
   font-weight: bolder;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif, serif;
   color: black;
   margin: 4px;
 }
@@ -61,7 +61,7 @@ h3 {
 h4 {
   font-size: 0.9rem;
   font-weight: bolder;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
   margin: 4px;
   text-decoration: underline;
@@ -69,14 +69,14 @@ h4 {
 
 p {
   font-size: 0.9rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
 
 a {
   text-decoration: none;
   font-size: 1.5rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
 
@@ -85,7 +85,7 @@ a {
 }
 
 .price {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 
@@ -95,12 +95,12 @@ a {
 
 /*MAIN-MENU*/
 .main-menu {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 78%;
   margin-top: -5%;
   font-size: 1.1rem;
   color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline;
   justify-content: space-between;
   display: flex;
@@ -110,7 +110,7 @@ a {
 .menu {
   font-size: 4rem;
   font-weight: bolder;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
   display: flex;
   justify-content: left;
@@ -127,7 +127,7 @@ a {
 }
 
 .box:hover {
-  background: rgb(109, 206, 255);
+  background: #e8e8e8;
   transition: transform 0.3s;
   border-radius: 10px;
 }
@@ -141,13 +141,13 @@ a {
 }
 
 .box2:hover {
-  background: rgb(109, 206, 255);
+  background: #e8e8e8;
   transition: transform 0.3s;
 }
 
 /*KØB-BOX*/
 .purchaseBox {
-  background: rgb(109, 206, 255);
+  background: white;
   color: var(--background-color);
   padding: 4px;
   border-radius: 30px;
@@ -178,4 +178,8 @@ ol {
   list-style: decimal outside;
   list-style-position: outside;
   list-style-type: decimal;
+}
+
+.menu {
+  font-family: Arial, Helvetica, sans-serif;
 }
